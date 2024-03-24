@@ -24,7 +24,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Run vcpkg
-      uses: run-vcpkg/vcpkg-action@v11
+      uses: lukka/run-vcpkg@v11
       with:
         setupOnly: true
         vcpkgDirectory: '${{runner.workspace}}/vcpkg'
