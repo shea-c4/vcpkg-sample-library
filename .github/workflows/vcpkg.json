@@ -1,0 +1,18 @@
+{
+    "name": "vcpkg-sample-library",
+    "version": "1.0.2",
+    "homepage": "https://github.com/shea-c4/vcpkg-sample-library",
+    "description": "A sample C++ library designed to serve as a foundational example for a tutorial on packaging libraries with vcpkg.",
+    "license": "MIT",
+    "dependencies": [
+        {
+            "host": true,
+            "name": "vcpkg-cmake"
+        },
+        {
+            "host": true,
+            "name": "vcpkg-cmake-config"
+        },
+        "fmt"
+    ]
+}
